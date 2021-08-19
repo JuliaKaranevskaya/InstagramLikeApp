@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		C1ED6C8B26CE48DE00DC36E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6C8A26CE48DE00DC36E4 /* AppDelegate.swift */; };
 		C1ED6C8D26CE48DE00DC36E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6C8C26CE48DE00DC36E4 /* SceneDelegate.swift */; };
-		C1ED6C8F26CE48DE00DC36E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6C8E26CE48DE00DC36E4 /* ViewController.swift */; };
+		C1ED6C8F26CE48DE00DC36E4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6C8E26CE48DE00DC36E4 /* StartViewController.swift */; };
 		C1ED6C9226CE48DE00DC36E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ED6C9026CE48DE00DC36E4 /* Main.storyboard */; };
 		C1ED6C9426CE48E400DC36E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ED6C9326CE48E400DC36E4 /* Assets.xcassets */; };
 		C1ED6C9726CE48E400DC36E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ED6C9526CE48E400DC36E4 /* LaunchScreen.storyboard */; };
+		C1ED6CA326CE4F3400DC36E4 /* FinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6CA226CE4F3400DC36E4 /* FinderViewController.swift */; };
+		C1ED6CA526CE4F5800DC36E4 /* InstaCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6CA426CE4F5800DC36E4 /* InstaCameraViewController.swift */; };
+		C1ED6CA726CE4F7300DC36E4 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6CA626CE4F7300DC36E4 /* NotificationViewController.swift */; };
+		C1ED6CA926CE4F8800DC36E4 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6CA826CE4F8800DC36E4 /* UserProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1ED6C8726CE48DE00DC36E4 /* InstagramLikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1ED6C8A26CE48DE00DC36E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1ED6C8C26CE48DE00DC36E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1ED6C8E26CE48DE00DC36E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1ED6C8E26CE48DE00DC36E4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		C1ED6C9126CE48DE00DC36E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1ED6C9326CE48E400DC36E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1ED6C9626CE48E400DC36E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1ED6C9826CE48E400DC36E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1ED6CA226CE4F3400DC36E4 /* FinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderViewController.swift; sourceTree = "<group>"; };
+		C1ED6CA426CE4F5800DC36E4 /* InstaCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCameraViewController.swift; sourceTree = "<group>"; };
+		C1ED6CA626CE4F7300DC36E4 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		C1ED6CA826CE4F8800DC36E4 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,51 @@
 		C1ED6C8926CE48DE00DC36E4 /* InstagramLikeApp */ = {
 			isa = PBXGroup;
 			children = (
-				C1ED6C8A26CE48DE00DC36E4 /* AppDelegate.swift */,
-				C1ED6C8C26CE48DE00DC36E4 /* SceneDelegate.swift */,
-				C1ED6C8E26CE48DE00DC36E4 /* ViewController.swift */,
-				C1ED6C9026CE48DE00DC36E4 /* Main.storyboard */,
-				C1ED6C9326CE48E400DC36E4 /* Assets.xcassets */,
-				C1ED6C9526CE48E400DC36E4 /* LaunchScreen.storyboard */,
+				C1ED6CA126CE4D9E00DC36E4 /* Resources */,
+				C1ED6C9E26CE4D5D00DC36E4 /* Models */,
+				C1ED6C9F26CE4D6600DC36E4 /* Views */,
+				C1ED6CA026CE4D7000DC36E4 /* Controllers */,
 				C1ED6C9826CE48E400DC36E4 /* Info.plist */,
 			);
 			path = InstagramLikeApp;
+			sourceTree = "<group>";
+		};
+		C1ED6C9E26CE4D5D00DC36E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1ED6C9F26CE4D6600DC36E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1ED6C9026CE48DE00DC36E4 /* Main.storyboard */,
+				C1ED6C9326CE48E400DC36E4 /* Assets.xcassets */,
+				C1ED6C9526CE48E400DC36E4 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1ED6CA026CE4D7000DC36E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1ED6C8E26CE48DE00DC36E4 /* StartViewController.swift */,
+				C1ED6CA226CE4F3400DC36E4 /* FinderViewController.swift */,
+				C1ED6CA426CE4F5800DC36E4 /* InstaCameraViewController.swift */,
+				C1ED6CA626CE4F7300DC36E4 /* NotificationViewController.swift */,
+				C1ED6CA826CE4F8800DC36E4 /* UserProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C1ED6CA126CE4D9E00DC36E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1ED6C8A26CE48DE00DC36E4 /* AppDelegate.swift */,
+				C1ED6C8C26CE48DE00DC36E4 /* SceneDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1ED6C8F26CE48DE00DC36E4 /* ViewController.swift in Sources */,
+				C1ED6CA326CE4F3400DC36E4 /* FinderViewController.swift in Sources */,
+				C1ED6C8F26CE48DE00DC36E4 /* StartViewController.swift in Sources */,
+				C1ED6CA926CE4F8800DC36E4 /* UserProfileViewController.swift in Sources */,
+				C1ED6CA726CE4F7300DC36E4 /* NotificationViewController.swift in Sources */,
+				C1ED6CA526CE4F5800DC36E4 /* InstaCameraViewController.swift in Sources */,
 				C1ED6C8B26CE48DE00DC36E4 /* AppDelegate.swift in Sources */,
 				C1ED6C8D26CE48DE00DC36E4 /* SceneDelegate.swift in Sources */,
 			);
